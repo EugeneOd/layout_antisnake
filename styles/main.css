@@ -26,34 +26,10 @@ body {
 
 @media (min-width: 600px) {
   .container {
-    grid-template-columns: repeat(2, 1fr); }
-  .container__block--3 {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2; }
-  .container__block--4 {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3; }
-  .container__block--5 {
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4; }
-  .container__block--6 {
-    -webkit-box-ordinal-group: 6;
-        -ms-flex-order: 5;
-            order: 5; } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media (min-width: 900px) {
   .container {
-    grid-template-columns: repeat(3, 1fr); }
-  .container__block--4 {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3; }
-  .container__block--6 {
-    -webkit-box-ordinal-group: 6;
-        -ms-flex-order: 5;
-            order: 5; } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 /*# sourceMappingURL=main.css.map */
